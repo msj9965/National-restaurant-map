@@ -1,0 +1,239 @@
+.content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  width: 1506px;
+  left: 0;
+  right: 0;
+  top: 10px;
+  margin: auto;
+  height: 100px;
+  background-color: rgb(164, 185, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.header span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #363636;
+}
+
+.map--container {
+  margin-top: 30px;
+  width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid #f7be54;
+  padding: 30px;
+}
+
+.map--container .map--title {
+  border: 5px solid #606eeb;
+  width: 300px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.map--container .map {
+  margin-top: 30px;
+  position: relative;
+}
+
+.map--container .map .south--korea {
+  width: 400px;
+  height: auto;
+}
+
+.map--container .map .pin {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+}
+
+.map--container .map .pin.seoul {
+  top: 130px;
+  left: 90px;
+}
+
+.map--container .map .pin.gyeonggi {
+  top: 170px;
+  left: 120px;
+}
+
+.map--container .map .pin.chungnam {
+  top: 280px;
+  left: 80px;
+}
+
+.map--container .map .pin.sejong {
+  top: 270px;
+  left: 125px;
+}
+
+.map--container .map .pin.daejeon {
+  top: 300px;
+  left: 140px;
+}
+
+.map--container .map .pin.chungbuk {
+  top: 230px;
+  left: 180px;
+}
+
+.map--container .map .pin.gyeongbook {
+  top: 280px;
+  left: 300px;
+}
+
+.map--container .map .pin.daegu {
+  top: 370px;
+  left: 275px;
+}
+
+.map--container .map .pin.jeonbuk {
+  top: 400px;
+  left: 110px;
+}
+
+.map--container .map .pin.jeonnam {
+  top: 500px;
+  left: 110px;
+}
+
+.map--container .map .pin.gwangju {
+  top: 470px;
+  left: 70px;
+}
+
+.map--container .map .pin.gyeongnam {
+  top: 440px;
+  left: 250px;
+}
+
+.map--container .map .pin.busan {
+  top: 460px;
+  left: 330px;
+}
+
+.map--container .map .pin.ulsan {
+  top: 410px;
+  left: 350px;
+}
+
+.map--container .map .pin.gangwon {
+  top: 100px;
+  left: 250px;
+}
+
+.map--container .map .pin.jeju {
+  top: 640px;
+  left: 40px;
+}
+
+.map--container .map .pin.incheon {
+  top: 140px;
+  left: 60px;
+}
+
+.back--btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.back--btn button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(164, 185, 248);
+}
+
+
+.back--btn button:hover {
+  background-color: rgb(164, 185, 248,0.5);
+  cursor: pointer;
+}
+
+.content .list--container {
+  margin-top: 30px;
+  width: 1366px;
+  border: 10px solid #f7be54;
+  padding: 30px;
+}
+
+.content .list--container .item {
+  border: 2px solid #FAD693;
+  background-color: #FAD693;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.content .list--container .item .thumb--img {
+  width: 420px;
+  height: 350px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+
+.content .list--container .item .thumb--img img{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.content .list--container .item .description {
+  margin-top: 40px;
+}
+
+.content .list--container .item .description p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.content .list--container .item .description dl {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content .list--container .item .description dl dt{
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.content .list--container .item .description dl dd {
+  font-size: 18px;
+}
+
+.content .list--container .item .description dl dd a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.content .list--container .item .description dl dd a:hover {
+  color: blue;
+}
